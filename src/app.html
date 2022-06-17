@@ -4,6 +4,26 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700,800,900');
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			:root {
+				--back-color: #222327;
+				--sel-color: #29fd53;
+			}
+			body {
+				display: flex;
+				background: var(--back-color);
+			}
+		</style>
 		%sveltekit.head%
 	</head>
 	<body>
